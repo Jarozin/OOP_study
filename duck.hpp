@@ -12,5 +12,5 @@ namespace Duck
             int PerformFly();
             int PerformQuack();
             virtual int display() = 0;
-    }
+    };
 }
