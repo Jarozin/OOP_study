@@ -1,0 +1,1 @@
+Alt+double click to hightlight multiple funcs/classes etc
