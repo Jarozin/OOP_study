@@ -8,10 +8,10 @@
 class CurrentWeatherDisplay: public Display, public Observer
 {
 public:
-    CurrentWeatherDisplay();
+    CurrentWeatherDisplay(WeatherData *weather_data);
     ~CurrentWeatherDisplay() override;
     int show() override;
-    int Update() override;
+    void Update() override;
 private:
     float pressure, temperature, humidity;
 };

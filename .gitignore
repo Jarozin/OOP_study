@@ -6,3 +6,5 @@
 .vscode/tasks.json
 build/Debug/outDebug
 .vscode/tasks.json
+weather/build/Release/outRelease
+.gitignore

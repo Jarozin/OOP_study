@@ -12,6 +12,22 @@ WeatherData::~WeatherData()
 
 }
 
+float WeatherData::getPressure()
+{
+    return pressure;
+}
+
+
+float WeatherData::getTemperature()
+{
+    return temperature;
+}
+
+float WeatherData::getHumidity()
+{
+    return humidity;
+}
+
 int WeatherData::setParametres(float pressure, float temperature, float humidity)
 {
     this->pressure = pressure;
@@ -33,8 +49,8 @@ int WeatherData::DeleteObserver(Observer *o)
 
 int WeatherData::NotifyObservers()
 {
-    for (auto i = observer_set.cbegin(); i < observer_set.cend(); i++)
+    for (auto i = observer_set.cbegin(); i != observer_set.cend(); i++)
     {
-        i->Update();
+        (*i)->Update();
     }
 }
