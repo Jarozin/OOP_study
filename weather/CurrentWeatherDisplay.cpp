@@ -13,7 +13,7 @@ CurrentWeatherDisplay::~CurrentWeatherDisplay()
 
 int CurrentWeatherDisplay::show()
 {
-    std::cout << "Current pressure: " << pressure << std::endl << "Current temperature: " << temperature << std::endl << "Current humidity: " << humidity << std::endl;
+    std::cout << "Current pressure: " << pressure << std::endl << "Current temperature: " << temperature << std::endl << "Current humidity: " << humidity << std::endl << std::endl;
 }
 
 void CurrentWeatherDisplay::Update()
