@@ -5,3 +5,4 @@
 .vscode/c_cpp_properties.json
 .vscode/tasks.json
 build/Debug/outDebug
+.vscode/tasks.json
