@@ -2,11 +2,8 @@
 
 WeatherData::WeatherData()
 {
-    pressure = 0;
-    temperature = 0;
-    humidity = 0;
+    setParametres(0, 0, 0);
 }
-
 WeatherData::~WeatherData()
 {
 
@@ -33,6 +30,7 @@ int WeatherData::setParametres(float pressure, float temperature, float humidity
     this->pressure = pressure;
     this->humidity = humidity;
     this->temperature = temperature;
+    NotifyObservers();
     return 0;   
 }
 

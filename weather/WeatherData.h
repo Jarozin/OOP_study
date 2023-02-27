@@ -4,6 +4,7 @@
 #pragma once
 #include "Subject.h"
 #include <set>
+#include <algorithm>
 class WeatherData: public Subject
 {
 public:

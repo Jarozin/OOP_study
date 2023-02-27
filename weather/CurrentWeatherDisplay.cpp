@@ -3,11 +3,12 @@
 CurrentWeatherDisplay::CurrentWeatherDisplay(WeatherData *weather_data)
 {
     this->weather_data = weather_data;
+    weather_data->RegisterObserver(this);
 }
 
 CurrentWeatherDisplay::~CurrentWeatherDisplay()
 {
-
+    weather_data->DeleteObserver(this);
 }
 
 int CurrentWeatherDisplay::show()
@@ -20,4 +21,5 @@ void CurrentWeatherDisplay::Update()
     humidity = weather_data->getHumidity();
     temperature = weather_data->getTemperature();
     pressure = weather_data->getPressure();
+    show();
 }

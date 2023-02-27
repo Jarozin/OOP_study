@@ -1,8 +1,11 @@
 #include <iostream>
+#include "WeatherData.h"
+#include "CurrentWeatherDisplay.h"
 int main() {
-    if (__cplusplus == 201703L) std::cout << "C++17\n";
-    else if (__cplusplus == 201402L) std::cout << "C++14\n";
-    else if (__cplusplus == 201103L) std::cout << "C++11\n";
-    else if (__cplusplus == 199711L) std::cout << "C++98\n";
-    else std::cout << "pre-standard C++\n";
+    WeatherData weather_data;
+    CurrentWeatherDisplay current_weather_display(&weather_data);
+
+    weather_data.setParametres(5, 15, 25);
+    weather_data.setParametres(13, 11, 46);
+    return 0;
 }
