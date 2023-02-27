@@ -9,7 +9,7 @@ namespace Duck{
     public:
         MallardDuck();
         ~MallardDuck();
-        int display();
+        int display() override;
     private:
     
     };

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "QuackBehaviour.hpp"
 #include "FlyBehaviour.hpp"
+#pragma once
 namespace Duck
 {
     class Duck

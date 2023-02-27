@@ -6,12 +6,12 @@
 namespace Duck{
 
 
-class ModelDuck:Duck
+class ModelDuck:public Duck
 {
 public:
     ModelDuck();
     ~ModelDuck();
-    int display();
+    int display() override;
 private:
 
 };
