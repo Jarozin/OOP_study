@@ -7,3 +7,7 @@ clients that use it.
 dependency between objects so that when one
 object changes state, all of its dependents are
 notified and updated automatically.
+3) beverage - the decorator pattern - attaches additional
+responsibilities to an object dynamically.
+Decorators provide a flexible alternative to
+subclassing for extending functionality.
