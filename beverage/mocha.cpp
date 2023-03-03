@@ -2,7 +2,7 @@
 
 Mocha::Mocha(Beverage *orig_beverage) : Condiments(orig_beverage)
 {
-    description = orig_beverage->getDescription() + " with mocha";
+    description = original_beverage->getDescription() + ", mocha";
 }
 
 Mocha::~Mocha()
