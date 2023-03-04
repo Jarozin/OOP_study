@@ -1,6 +1,6 @@
 #include "NYPepperoni.h"
 
-NYPepperoni::NYPepperoni()
+NYPepperoni::NYPepperoni(IngridientFactory *ingridient_factory) : Pizza(ingridient_factory)
 {
     pizza_name = "NY Pepperoni";
 

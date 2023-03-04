@@ -7,7 +7,7 @@
 class FILCheese : public Pizza
 {
 public:
-    FILCheese();
+    FILCheese(IngridientFactory *ingridient_factory);
     ~FILCheese();
     int bake() override;
 

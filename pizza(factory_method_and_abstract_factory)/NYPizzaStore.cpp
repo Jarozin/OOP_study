@@ -11,8 +11,9 @@ NYPizzaStore::~NYPizzaStore()
 
 Pizza* NYPizzaStore::createPizza(std::string type)
 {
+    IngridientFactory *factory = new NYIngridientFactory();
     if (type == "Cheese")
-        return new NYCheese();
+        return new NYCheese(factory);
     else if(type == "Pepperoni")
-        return new NYPepperoni();
+        return new NYPepperoni(factory);
 }

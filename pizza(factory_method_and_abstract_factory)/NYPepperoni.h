@@ -6,7 +6,7 @@
 class NYPepperoni : public Pizza
 {
 public:
-    NYPepperoni();
+    NYPepperoni(IngridientFactory *ingridient_factory);
     ~NYPepperoni();
     int bake() override;
 private:

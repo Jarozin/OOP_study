@@ -1,6 +1,6 @@
 #include "NYCheese.h"
 
-NYCheese::NYCheese()
+NYCheese::NYCheese(IngridientFactory *ingridient_factory) : Pizza(ingridient_factory)
 {
     pizza_name = "NY Cheese";
 }

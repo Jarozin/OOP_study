@@ -1,6 +1,6 @@
 #include "FILCheese.h"
 
-FILCheese::FILCheese()
+FILCheese::FILCheese(IngridientFactory *ingridient_factory) : Pizza(ingridient_factory)
 {
     pizza_name = "FIL Cheese";
 }

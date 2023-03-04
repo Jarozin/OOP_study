@@ -1,6 +1,6 @@
 #include "FILPepperoni.h"
 
-FILPepperoni::FILPepperoni()
+FILPepperoni::FILPepperoni(IngridientFactory *ingridient_factory) : Pizza(ingridient_factory)
 {
     pizza_name = "FIL Pepperoni";
 }

@@ -5,7 +5,7 @@
 #include "PizzaStore.h"
 #include "NYCheese.h"
 #include "NYPepperoni.h"
-
+#include "NYIngridientFactory.h"
 class NYPizzaStore: public PizzaStore
 {
 public:

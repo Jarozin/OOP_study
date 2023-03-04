@@ -7,7 +7,7 @@
 class NYCheese : public Pizza
 {
 public:
-    NYCheese();
+    NYCheese(IngridientFactory *ingridient_factory);
     ~NYCheese();
     int bake() override;
 
