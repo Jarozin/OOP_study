@@ -4,7 +4,7 @@
 #pragma once
 #include "Pizza.h"
 
-class FILCheese
+class FILCheese : public Pizza
 {
 public:
     FILCheese();

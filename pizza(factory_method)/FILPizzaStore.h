@@ -2,15 +2,15 @@
 #define FILPIZZASTORE_H
 
 #pragma once
-
-class FILPizzaStore
+#include "PizzaStore.h"
+class FILPizzaStore : public PizzaStore
 {
 public:
     FILPizzaStore();
     ~FILPizzaStore();
 
 private:
-
+    Pizza* createPizza(std::string) override;
 };
 
 #endif
