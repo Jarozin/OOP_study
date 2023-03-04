@@ -9,6 +9,7 @@ class NYCheese : public Pizza
 public:
     NYCheese();
     ~NYCheese();
+    int bake() override;
 
 private:
 

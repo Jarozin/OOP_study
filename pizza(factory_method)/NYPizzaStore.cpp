@@ -2,7 +2,6 @@
 
 NYPizzaStore::NYPizzaStore()
 {
-
 }
 
 NYPizzaStore::~NYPizzaStore()

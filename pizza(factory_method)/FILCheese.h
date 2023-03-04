@@ -9,6 +9,7 @@ class FILCheese : public Pizza
 public:
     FILCheese();
     ~FILCheese();
+    int bake() override;
 
 private:
 

@@ -8,6 +8,7 @@ class NYPepperoni : public Pizza
 public:
     NYPepperoni();
     ~NYPepperoni();
+    int bake() override;
 private:
 
 };

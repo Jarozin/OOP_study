@@ -3,6 +3,8 @@
 
 #pragma once
 #include "PizzaStore.h"
+#include "FILCheese.h"
+#include "FILPepperoni.h"
 class FILPizzaStore : public PizzaStore
 {
 public:
