@@ -8,5 +8,6 @@ int main() {
     WeatherStatisticsDisplay weather_statistics_display(&weather_data);
     weather_data.setParametres(5, 15, 25);
     weather_data.setParametres(13, 11, 46);
+    std::cout << "Hello world!";
     return 0;
 }

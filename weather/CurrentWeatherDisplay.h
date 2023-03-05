@@ -13,7 +13,7 @@ public:
     int show() override;
     void Update() override;
 private:
-    float pressure, temperature, humidity;
+    float pressure, temperature, humidity, heat;
 };
 
 #endif
