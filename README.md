@@ -25,6 +25,11 @@ into another interface the clients expect. Adapter lets
 classes work together that couldn’t otherwise because of
 incompatible interfaces.
 (как вариант еще наследоваться от 2+ классов)
-9) Facade - facade pattern - provides a unified interface to a
+9) Hometheatre - facade pattern - provides a unified interface to a
 set of interfaces in a subsystem. Facade defines a higher-
 level interface that makes the subsystem easier to use.
+10) Tempalte - Template Method Pattern - defines the skeleton
+of an algorithm in a method, deferring some steps to
+subclasses. Template Method lets subclasses redefine
+certain steps of an algorithm without changing the
+algorithm’s structure.
