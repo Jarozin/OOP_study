@@ -33,3 +33,7 @@ of an algorithm in a method, deferring some steps to
 subclasses. Template Method lets subclasses redefine
 certain steps of an algorithm without changing the
 algorithm’s structure.
+11) The Iterator Pattern provides a way to
+access the elements of an aggregate object
+sequentially without exposing its underlying
+representation
