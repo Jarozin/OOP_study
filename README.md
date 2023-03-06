@@ -16,3 +16,7 @@ subclassing for extending functionality.
 !Main difference - factory method creates 1 object, while abstract factory can create a family of object using composition!
 6) Randomizer - singleton pattern - ensures a class has only one
 instance, and provides a global point of access to it.
+7) remote_control - the command pattern - encapsulates a request as an
+object, thereby letting you parameterize other objects
+with different requests, queue or log requests, and
+support undoable operations.
