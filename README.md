@@ -20,3 +20,7 @@ instance, and provides a global point of access to it.
 object, thereby letting you parameterize other objects
 with different requests, queue or log requests, and
 support undoable operations.
+8) Adapter - The Adapter Pattern - converts the interface of a class
+into another interface the clients expect. Adapter lets
+classes work together that couldn’t otherwise because of
+incompatible interfaces.
