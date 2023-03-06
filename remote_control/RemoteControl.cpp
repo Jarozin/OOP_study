@@ -7,6 +7,7 @@ RemoteControl::RemoteControl()
         on_commands[i] = new noCommand();
         off_commands[i] = new noCommand();
     }
+    last = new noCommand();
 }
 
 RemoteControl::~RemoteControl()
