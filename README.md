@@ -24,3 +24,4 @@ support undoable operations.
 into another interface the clients expect. Adapter lets
 classes work together that couldn’t otherwise because of
 incompatible interfaces.
+(как вариант еще наследоваться от 2+ классов)
