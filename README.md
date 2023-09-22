@@ -1,4 +1,3 @@
-Head First Design Patterns book
 # OOP_study
 1) ducks - strategy design pattern - defines a family of algorithms,
 encapsulates each one, and makes them interchangeable.
@@ -38,3 +37,5 @@ algorithm’s structure.
 access the elements of an aggregate object
 sequentially without exposing its underlying
 representation
+
+Head First Design Patterns book
