@@ -1,3 +1,4 @@
+Head First Design Patterns book
 # OOP_study
 1) ducks - strategy design pattern - defines a family of algorithms,
 encapsulates each one, and makes them interchangeable.
